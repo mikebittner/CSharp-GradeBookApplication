@@ -19,6 +19,7 @@ namespace GradeBook.UserInterfaces
 
         public static void CommandRoute(string command)
         {
+
             if (command.StartsWith("create"))
                 CreateCommand(command);
             else if (command.StartsWith("load"))
